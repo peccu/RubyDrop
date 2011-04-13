@@ -7,7 +7,7 @@ module LoggerModule
     if !File.exist? File.dirname(name) then
       FileUtils.mkdir_p File.dirname(name)
     end
-          
+
     # create the logger and give it back
     log = Logger.new(name, shift_age, shift_size)
     log.level = level

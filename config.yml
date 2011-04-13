@@ -32,7 +32,7 @@ tcp_listen_port: 11311
 
 ##
 ## Remote git options
-## 
+##
 ## These options are mostly used to construct the Git URL to the remote repo
 
 # The remote user
@@ -42,7 +42,7 @@ remote_user: my_user
 remote_addr: myserver.com
 
 # Remote repository path
-# e.g.: 
+# e.g.:
 # in: git@github.com:[meltingice/RubyDrop.git]
 # it's what's in the brackets []
 remote_path: RubyDrop.git
